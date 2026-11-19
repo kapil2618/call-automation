@@ -9,8 +9,15 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "SaaS Landing Template",
-  description: "Landing Page template.",
+  title: "Synq — White-Label AI Dispatch Infrastructure",
+  description:
+    "Wholesale AI voice receptionists for home service marketing agencies. Flat $150/month per location.",
+  openGraph: {
+    title: "Synq — White-Label AI Dispatch Infrastructure",
+    description:
+      "Add $150+ in pure recurring profit per plumbing & HVAC client. We handle the AI, webhooks, and telecom.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
