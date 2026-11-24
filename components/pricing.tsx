@@ -4,20 +4,21 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { CheckIcon } from "@radix-ui/react-icons";
 
 export default function Pricing() {
   const plan = {
-    name: "Wholesale Partner",
-    desc: "Everything you need to deploy an AI dispatcher for one home service client.",
-    price: 150,
+    name: "Missed-Call Backup",
+    desc: "Everything a small septic shop needs to stop losing after-hours and busy-line calls.",
+    price: 199,
     features: [
-      "100% White-labeled",
-      "Keep your retail markup",
-      "Zero technical setup",
-      "300 AI minutes (~150 calls)",
-      "Direct Calendar booking",
-      "Instant SMS dispatch",
+      "14-day free live test — $0 due today",
+      "Only answers when you can't",
+      "We handle 100% of setup",
+      "Separates emergencies from routine pumping",
+      "Books onto your existing calendar",
+      "Cancel anytime — no long-term contracts",
     ],
   };
 
@@ -34,10 +35,10 @@ export default function Pricing() {
         className="mb-12 flex flex-col gap-3 text-center sm:mb-16"
       >
         <h2 className="text-3xl font-semibold sm:text-4xl tracking-tighter bg-linear-to-b from-foreground to-muted-foreground text-transparent bg-clip-text">
-          Wholesale Infrastructure Pricing
+          Simple, Flat Monthly Pricing
         </h2>
         <p className="mx-auto max-w-xl text-muted-foreground text-center text-lg mt-2">
-          A single, flat wholesale rate. You control the retail markup for your plumbing and HVAC clients.
+          One saved $500 pump-out pays for over two months of Synq. Test it on your real missed calls for 14 days free.
         </p>
       </motion.div>
 
@@ -64,7 +65,7 @@ export default function Pricing() {
                     ${plan.price}
                   </span>
                   <span className="ml-2 text-sm text-muted-foreground font-medium">
-                    / mo / location
+                    / month
                   </span>
                 </div>
               </div>
@@ -85,8 +86,8 @@ export default function Pricing() {
             </CardContent>
 
             <CardFooter className="p-6 sm:p-8 pt-0">
-              <Button className="w-full text-md py-6 rounded-xl" size="lg">
-                Become a Partner
+              <Button asChild className="w-full text-md py-6 rounded-xl" size="lg">
+                <Link href="/start">Start Your 2-Week Trial</Link>
               </Button>
             </CardFooter>
           </Card>

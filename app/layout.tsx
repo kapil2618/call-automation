@@ -9,13 +9,13 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Synq — White-Label AI Dispatch Infrastructure",
+  title: "Synq — Missed-Call Backup for Septic Companies",
   description:
-    "Wholesale AI voice receptionists for home service marketing agencies. Flat $150/month per location.",
+    "Simple missed-call backup for septic companies. Answers calls when you're on a truck or closed after 5 PM and books jobs straight onto your calendar. Flat $199/month.",
   openGraph: {
-    title: "Synq — White-Label AI Dispatch Infrastructure",
+    title: "Synq — Missed-Call Backup for Septic Companies",
     description:
-      "Add $150+ in pure recurring profit per plumbing & HVAC client. We handle the AI, webhooks, and telecom.",
+      "When your crew is out on a pump truck or closed after 5 PM, Synq answers the calls you miss, grabs the homeowner's address and issue, and puts the job straight on your calendar.",
     type: "website",
   },
 };

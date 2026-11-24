@@ -87,7 +87,7 @@ export default function RetellButton() {
         ? 'Connecting...'
         : isCalling
         ? 'End Call'
-        : 'Talk to the AI'}
+        : 'Test the Receptionist Live'}
     </Button>
   );
 }

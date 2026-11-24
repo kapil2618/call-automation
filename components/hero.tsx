@@ -16,14 +16,13 @@ export default function Hero() {
           className="flex flex-col justify-center items-center space-y-6 max-w-4xl mx-auto text-center"
         >
           <span className="w-fit h-full text-sm bg-card px-3 py-1 border border-border rounded-full text-muted-foreground">
-            Infrastructure for Growth Agencies
+            Missed-Call Backup for Septic Companies
           </span>
           <h1 className="text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty bg-linear-to-b from-sky-800 dark:from-sky-100 to-foreground dark:to-foreground bg-clip-text text-transparent">
-            White-Label AI Dispatch Infrastructure for Home Services.
+            When You Miss a Septic Call, They Call the Next Truck on Google.
           </h1>
           <p className="max-w-2xl text-lg mx-auto text-muted-foreground text-balance">
-            Add $150+ in pure recurring profit per plumbing client. We build the AI, host the webhooks, and manage the telecom. You sell it under your agency&apos;s brand.
-          </p>
+When your crew is out on a pump truck or closed after 5 PM, Synq answers the calls you miss, grabs the homeowner's address and issue, and puts the job straight on your calendar.          </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 mt-4"

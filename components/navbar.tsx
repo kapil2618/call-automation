@@ -73,9 +73,7 @@ export default function NavBar() {
             </Button>
           </div>
           <div className="flex items-center space-x-4">
-            <Button className="hidden sm:flex" size="sm" variant="secondary">
-              Partner Login
-            </Button>
+            
             <ThemeSwitcher />
           </div>
         </div>
@@ -118,7 +116,7 @@ export default function NavBar() {
                   className="pt-2"
                 >
                   <Button className="w-full" size="sm" variant="secondary">
-                    Partner Login
+                    
                   </Button>
                 </motion.div>
               </motion.div>

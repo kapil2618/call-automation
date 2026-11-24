@@ -23,9 +23,9 @@ const Footer = () => {
   ];
 
   const footerLinks = [
-    { name: "Features", href: "#features" },
+    // { name: "Features", href: "#features" },
     { name: "Pricing", href: "#pricing" },
-    { name: "Partner Login", href: "#" },
+    
   ];
 
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
                 Synq
               </Link>
               <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-                White-label AI dispatch infrastructure. We manage the telecom and webhooks so your agency can scale.
+                Simple missed-call backup for septic pumping and repair companies. We answer the calls you miss and book jobs straight onto your calendar.
               </p>
             </div>
 
@@ -95,7 +95,6 @@ const Footer = () => {
 
           <div className="flex flex-col items-center justify-between gap-2 text-center text-sm text-muted-foreground sm:flex-row sm:text-left">
             <span>© {year} Synq. All rights reserved.</span>
-            <span className="font-medium">#BuiltForAgencies</span>
           </div>
         </motion.div>
       </div>
