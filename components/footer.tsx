@@ -1,5 +1,6 @@
 "use client";
 
+import { TextHoverEffect } from "@/components/velora/text-hover-effect";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
@@ -29,7 +30,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full border-t bg-card/50">
+    <footer className="w-full overflow-hidden border-t bg-card/50">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:py-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -98,6 +99,12 @@ const Footer = () => {
           </div>
         </motion.div>
       </div>
+
+      <TextHoverEffect
+        text="SYNQ"
+        strokeWidth={0.6}
+        className="-mb-[2%] px-6 pt-6 font-black tracking-tight"
+      />
     </footer>
   );
 };
